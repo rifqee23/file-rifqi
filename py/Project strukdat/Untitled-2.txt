@@ -1,0 +1,8 @@
+#include <fstream>
+
+int main(){
+	std::ofstream inFile("petruk.txt");
+	
+	inFile << "Saya rifqi";
+    inFile.close();
+}
